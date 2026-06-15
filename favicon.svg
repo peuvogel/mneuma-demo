@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" width="64" height="64">
+  <title>Mneuma — Favicon</title>
+  <desc>Adapts to browser light/dark mode via prefers-color-scheme.</desc>
+
+  <style>
+    .fg-stroke { stroke: #0a0a0a; }
+    .fg-fill   { fill: #0a0a0a; }
+    @media (prefers-color-scheme: dark) {
+      .fg-stroke { stroke: #ffffff; }
+      .fg-fill   { fill: #ffffff; }
+    }
+  </style>
+
+  <g class="fg-stroke" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="22" y1="50" x2="44" y2="30"></line>
+    <line x1="60" y1="38" x2="44" y2="30"></line>
+    <line x1="80" y1="74" x2="44" y2="30"></line>
+  </g>
+  <circle class="fg-fill" cx="22" cy="50" r="5.5"></circle>
+  <circle class="fg-fill" cx="60" cy="38" r="5"></circle>
+  <circle class="fg-fill" cx="80" cy="74" r="5.5"></circle>
+  <circle cx="44" cy="30" r="9.5" fill="#8B5CF6"></circle>
+</svg>
