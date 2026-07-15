@@ -1,0 +1,1 @@
+import{u as r,b as o,s as d}from"./index-DAWHaNeG.js";function u(){const{user:a}=r(),{data:t,isLoading:s}=o({queryKey:["is-editorial",a==null?void 0:a.id],enabled:!!(a!=null&&a.id),queryFn:async()=>{const{data:e,error:i}=await d.rpc("is_editorial",{uid:a.id});if(i)throw i;return!!e},staleTime:6e4});return{isEditorial:!!t,isLoading:s}}export{u};
